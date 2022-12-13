@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Calcutor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>Exchange Rate Calculator</h1>
+        <div>
+            <input type="text" id="firstvalue"><select name="exchanger" id="rate" >
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="RUB">RUB</option>
+                <option value="CNY">CNY</option>
+            </select>
+            <button class="button-primary" id="buton">Exchange</button>
+            <input type="text" id="targetrate" disabled>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

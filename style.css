@@ -1,0 +1,10 @@
+.calculator {text-align: center; margin: 50px 20% auto 20%; border-width: 1px; border-color: #eee; border-radius: 5px; border-style:solid; padding: 50px;
+    background: rgb(107,107,233);
+    background: linear-gradient(180deg, rgba(107,107,233,1) 36%, rgba(107,213,235,1) 100%);
+}
+.calculator>h1 {color: #fff}
+.calculator>div{padding: 10px;}
+.calculator>div>#firstvalue, .calculator>div>#rate, .calculator>div>#buton, .calculator>div>#targetrate {border-radius: 0px;}
+.calculator>div>#firstvalue {margin-right: 0px;border-right: none;}
+.calculator>div>#firstvalue:focus {border: none;}
+.calculator>div>#rate {margin-left:0px;border-left: none;}
